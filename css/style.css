@@ -1,0 +1,40 @@
+@import url(normalize.css);
+@import url(grid.css);
+@import url(reset.css);
+
+.meta{
+    height: 70px;
+}
+.menu{
+    height: 70px;
+}
+.slider{
+    height: 710px;
+    background: url('../images/header.jpg') bottom right no-repeat;
+    /*background-size: ;*/
+}
+.grey{
+    background: #2c2c2c;
+    color: #FFF;
+}
+section h1{
+    font-size: 45px;
+    font-family: Century Gothic, sans-serif;
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 40px;
+}
+section h2{
+    font-size: 20px;
+    font-family: Roboto Slab, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 58px;
+}
+.whiteline{
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    width: 115px;
+    height: 1px;
+}

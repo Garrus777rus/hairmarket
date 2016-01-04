@@ -1,0 +1,44 @@
+.row{
+    overflow: hidden;
+}
+.row:after{
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+[class*=col-]{
+    float: left;
+    padding: 10px;
+}
+.col-1{ width: 80px;}
+.col-2{ width: 160px;}
+.col-3{ width: 240px;}
+.col-4{ width: 320px;}
+.col-5{ width: 400px;}
+.col-6{ width: 480px;}
+.col-7{ width: 560px;}
+.col-8{ width: 640px;}
+.col-9{ width: 720px;}
+.col-10{ width: 800px;}
+.col-11{ width: 880px;}
+.col-12{ width: 960px;}
+
+.offset-1{ margin-left: 80px;}
+.offset-2{ margin-left: 160px;}
+.offset-3{ margin-left: 240px;}
+.offset-4{ margin-left: 320px;}
+.offset-5{ margin-left: 400px;}
+.offset-6{ margin-left: 480px;}
+.offset-7{ margin-left: 560px;}
+.offset-8{ margin-left: 640px;}
+.offset-9{ margin-left: 720px;}
+.offset-10{margin-left: 800px;}
+.offset-11{margin-left: 880px;}
+.offset-12{margin-left: 960px;}
+
+.offset-center{
+    margin: 0 auto;
+    float: none;
+}
