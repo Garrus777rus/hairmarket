@@ -10,7 +10,8 @@
 }
 [class*=col-]{
     float: left;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .col-1{ width: 80px;}
 .col-2{ width: 160px;}

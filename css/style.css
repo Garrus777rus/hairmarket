@@ -1,7 +1,11 @@
 @import url(normalize.css);
-@import url(grid.css);
 @import url(reset.css);
+@import url(grid.css);
 
+body{
+    background: #fff;
+    color: #2b2b2b;
+}
 .meta{
     height: 70px;
 }
@@ -18,18 +22,25 @@
     color: #FFF;
 }
 section h1{
-    font-size: 45px;
+    font-size: 60px;
     font-family: Century Gothic, sans-serif;
     text-align: center;
     padding-top: 85px;
     padding-bottom: 40px;
 }
 section h2{
-    font-size: 20px;
+    font-size: 24px;
     font-family: Roboto Slab, sans-serif;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 58px;
+}
+section h3{
+    font-size: 40px;
+    font-family: Century Gothic, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
 }
 .whiteline{
     display: block;
@@ -37,4 +48,52 @@ section h2{
     background: #fff;
     width: 115px;
     height: 1px;
+}
+.greyline{
+    display: block;
+    overflow: hidden;
+    background: #a7a7a7;
+    width: 115px;
+    height: 1px;
+}
+body{
+    text-align: center;
+}
+.hits-block{
+    background: #e4e4e4;
+}
+.news-block{
+    background: #e2e2e2;
+}
+.news-block h2{
+    color: #605e5e;
+}
+.col-news{
+    width: 300px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background: url('../images/news_bg.png') 10px top no-repeat;
+}
+.col-news h2{
+    font-size: 14px;
+    text-align: left;
+    font-family: Proxima Nova Semibold, sans-serif;
+    color: #8d878f;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 17px;
+}
+.hits-slider{
+    height: 410px;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.23);
+}
+.tigi-slider{
+    height: 415px;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.23);
 }
